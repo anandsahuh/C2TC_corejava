@@ -35,14 +35,14 @@ class Employee1
 		this.email = email;
 		this.salary = salary;
 	}
-	public String toString()
+	public String toString() {
 Employee1 e1=new Employee1(101,"Harry","harry@gmail.com",40000.0f);
 		Employee1 e2=new Employee1(102,"Potter","Potter@gmail.com",41000.0f);
 		Employee1 e3=new Employee1(103,"Thor","Thor@gmail.com",45000.0f);
 		Employee1 e4=new Employee1(104,"Hulk","Hulk@gmail.com",40000.0f);
 		
 		ArrayList  al1=new ArrayList();
-		al1.add(0, i);
+		al1.add(0, 1);
 		al1.add(1, s);
 		al1.add(s1);
 		al1.add(s2);
