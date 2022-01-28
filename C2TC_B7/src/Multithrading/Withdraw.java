@@ -25,16 +25,7 @@ public class Withdraw extends Thread
                 {
                     balance = balance - withdraw;
                     System.out.println("Please collect your money");
-                }
-                else
-                {
-                    System.out.println("Insufficient Balance");
-                }
-                System.out.println("");
-                break;
- 
-                case 2:
-                System.out.print("Enter money to be deposited:");
+                }1be deposited:");
                 deposit = s.nextInt();
                 balance = balance + deposit;
                 System.out.println("Your Money has been successfully depsited");
